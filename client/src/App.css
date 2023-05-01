@@ -1,0 +1,167 @@
+a {
+  text-decoration: none;
+}
+
+.navbar-icon {
+  font-size: 2rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-item {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.navbar-item:hover {
+  color: gray;
+}
+
+.navbar-item.active {
+  color: gray;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.riddle-form {
+  background-color: whitesmoke;
+  color: black;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.riddle-form-title {
+  font-size: 1.6rem;
+  color: darkslategrey;
+}
+
+.riddle-form-difficulty {
+  font-size: 1.5rem;
+  color: gray;
+  text-align: right;
+}
+
+.icon-green {
+  color: forestgreen !important;
+  font-size: 1.5rem;
+}
+
+.icon-orange {
+  color: goldenrod !important;
+  font-size: 1.5rem;
+}
+
+.icon-red {
+  color: darkred !important;
+  font-size: 1.5rem;
+}
+
+.riddle-open {
+  border-style: solid;
+  border-width: 3px !important;
+  border-color: forestgreen !important;
+  border-radius: 15px !important;
+}
+
+.riddle-closed {
+  border-style: solid;
+  border-width: 3px !important;
+  border-color: firebrick !important;
+  border-radius: 15px !important;
+}
+
+.riddle-personal {
+  border-style: solid;
+  border-width: 3px !important;
+  border-color: goldenrod !important;
+  border-radius: 15px !important;
+}
+
+.answer-form {
+  background-color: white;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.answer-correct {
+  border-style: solid;
+  border-width: 2px !important;
+  border-color: forestgreen !important;
+  border-radius: 5px !important;
+}
+
+.answer-wrong {
+  border-style: solid;
+  border-width: 2px !important;
+  border-color: firebrick !important;
+  border-radius: 5px !important;
+}
+
+.hint {
+  border-style: solid;
+  border-width: 1px !important;
+  border-color: goldenrod !important;
+  border-radius: 5px !important;
+}
+
+.ranking-form {
+  position:fixed;
+  background-color: whitesmoke;
+  color: black;
+  padding: 1rem;
+  margin-top: 14rem;
+  margin-right: 1rem;
+}
+
+.legend-form {
+  position:fixed;
+  background-color: whitesmoke;
+  color: black;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.login-form {
+  margin-top: 8rem;
+}
+
+.add-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: gray;
+  border-color: gray;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.add-button:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.first-place {
+  color: goldenrod;
+}
+
+.second-place {
+  color: silver;
+}
+
+.third-place {
+  color: brown;
+}

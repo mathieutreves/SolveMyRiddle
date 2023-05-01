@@ -1,0 +1,14 @@
+
+## Retrieving the riddles.
+GET http://localhost:3001/api/listRiddles HTTP/1.1
+###
+
+
+## Retrieving the list of answers for riddle n.
+GET http://localhost:3001/api/answers/1 HTTP/1.1
+###
+
+
+## Retrieving the ranking.
+GET http://localhost:3001/api/ranking HTTP/1.1
+###
